@@ -1,0 +1,439 @@
+/* Start Main*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Tahoma, sans-serif;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+
+}
+
+/* End Main*/
+
+/*Start Header*/
+header{
+    background: url("117378702_2972199679570007_8327632401085045260_o.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+/*Start NavBar*/
+nav{
+    overflow: hidden;
+  position: relative;
+  z-index: 120;
+
+}
+.containar{
+    margin: auto;
+    width: 84%;
+}
+.containar .left{
+    float: left;
+
+}
+.containar .left h2{
+    font-size: 2.3em;
+    color: #1abc9c;
+    padding-top: 12px;
+    font-weight: 100;
+}
+.containar .right{ 
+    float: right;
+    padding-top: 24px;
+}
+.containar .right a{
+   
+    color: #ffffff;
+    text-decoration: none;
+  padding-bottom: 10px;
+  margin: 0 15px 0 15px;
+    font-size: 1em;
+
+}
+.containar .right a:hover{
+    border-bottom: 2px solid  #1abc9c ;
+
+}
+/*End NavBar*/
+
+.head{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+z-index: 120;
+
+}
+.head h1{
+    font-size: 2.5em;
+    color: #ffffff;
+
+}
+.head h1 span{
+    color: #1abc9c;
+    border: none;
+}
+h4{
+    padding-bottom: 50px;
+    font-size: 1.2em;
+}
+.head p
+{
+    color: #ffffff;
+    padding: 20px;
+    font-size: 1.2em;
+}
+/*End Header*/
+/* Start service*/
+.Test{
+    height:100px;
+}
+ span{
+    border-bottom: 3px solid #1abc9c;
+    padding-bottom: 3px;
+}
+i {
+    margin-right:30px;
+    font-size: 3.5em;
+    color: #1abc9c;
+    display: inline-block;
+     width:30px;
+      
+
+
+}
+
+    .h{
+    display: inline-block;
+    width: 25%;
+    padding: 10px 20px;
+    }
+    .h p{
+        color: gray;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+   
+    .Icons{
+        padding-right: 10px;
+        margin-bottom: 30px;
+        display: inline-block;
+        border-bottom: 1px solid gray;
+    padding-bottom: 70px;
+      
+    }
+       
+    .icon{
+        display: inline-block;
+    position: relative;
+margin-right: 60px;
+    }
+    .icon i{
+        position: absolute;
+        top: -108px;
+    }
+    .Serv{
+        padding-top: 78px;
+       
+    }
+    
+    /*End service*/
+
+
+    /* Start Team*/
+    .SecTeam{
+        display: inline-block;
+        padding-bottom: 60px;
+        padding-top: 40px;
+    }
+    .team{
+        display: inline-block;
+    }
+    .lft{
+        width: 39%;
+        display: inline-block;
+    }
+    .rit{
+        width:59%;
+        display: inline-block;
+    }
+    .itm{
+        display: inline-block;
+        width: 23%;
+        margin-right: 8px;
+        height: 150px;
+        position: relative;
+    }
+    .itm:hover span ,
+    .itm:hover .overlay
+    {
+visibility: visible;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    .itm span{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: 1px solid #ffffff;
+        border-radius: 8px;
+        padding: 4px;
+        transform: translate(-50% ,-50%);
+        color: #ffffff;
+        z-index: 111111;
+        visibility: hidden;
+
+    }
+ .itm .overlay{
+    
+       visibility: hidden;
+       background-color: #1abc9c;
+       
+    }
+    
+.p{
+
+    color: gray;
+    font-size:14px;
+    line-height: 19px;
+   padding-bottom: 18px ;
+   margin: 30px 0 0 0;
+    
+}
+
+
+    /* End Team*/
+   
+    /* Start Photo*/
+.Itms{
+    height: 250px;
+    background-image: url("im1.jpg");
+    padding: 80px 0;
+    background-size: cover;
+position: relative;
+}
+.Itms h2{
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    right: 43%;
+    z-index: 100000000;
+    }
+    .Itms p {
+        position: absolute;
+        color: #fff;
+        z-index: 1111;
+        top: 57%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        font-size: 13px;
+        text-align: center;
+    }
+    .Itms span{
+        border: none;
+    position: absolute;
+    z-index: 1111111;
+    color: #1abc9c;
+    top: 69%;
+    left: 45%;
+    }
+   
+    /* End Photo*/
+
+     /* Start Projects*/
+    .pro{
+        padding: 50px 0 30px 0;
+    }
+    .pro .containar h3{
+        padding-bottom: 20px;
+    }
+   
+    .but{
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .but button{
+        padding: 5px 15px;
+        margin-right: 10px;
+    font-size: 0.9em;
+        background-color: transparent;
+        border: 1px solid #1abc9c;
+        color: #a7a7;
+       
+    }
+    
+    .but button:hover,
+    .but button.Active
+    {
+        background-color: #1abc9c;
+        color: #fff;
+        cursor: pointer;
+    
+
+    }
+    .pho{
+        padding-top: 30px;
+    }
+    .pho .IM img{
+height:100%;
+width: 100%;
+
+    }
+    .IN{
+        height: 230px;
+    }
+    .pho .IM {
+        width: 32%;
+   overflow: hidden;
+    display: inline-block;
+    position: relative;
+    margin-right: 6px;
+    margin-top: 5px;
+    }
+    .IM span{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: none;
+        z-index: 1111;
+        color: #ffff;
+        border: 1px solid ;
+        border-radius: 8px;
+        padding:10px ;
+    }
+    
+    .pho .IM i{
+        position: absolute;
+        right: -13px;
+        bottom: 12px;
+        display: inline-block;
+        font-size: 12px;
+        color: #ffff;
+        z-index: 1111;
+    }
+    .IM .overlay{
+        background-color: #1abc9c;
+        visibility: hidden;
+    }
+    .IM span{
+        visibility: hidden;
+    }
+    .IM i{
+        visibility: hidden;
+    }
+    .IM:hover span,
+    .IM:hover .overlay,
+    .IM:hover i{
+        visibility: visible;
+
+    }
+    /* End Projects*/
+
+    /* Start Footer*/
+footer .containar .Abt,
+footer .containar .Tags,
+footer .containar .Post,
+footer .containar .categories
+{
+float: left;
+width: 24%;
+margin-right: 10px;
+padding-top: 85px;
+}
+footer{
+    padding-bottom:50px;
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+}
+footer .containar .Abt h5,
+footer .containar .Tags h5,
+footer .containar .Post h5,
+footer .containar .categories h5
+{
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+footer .containar .Abt p{
+    font-size: 14px;
+    color: #a7a7a7;
+    margin-bottom: 50px;
+}
+
+footer .containar .Abt i{
+    font-size: 14px;
+    color: #fff;
+    margin-right: 4px;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+.Icn{
+    padding-bottom: 30px;
+}
+
+footer .containar .Tags span{
+border: 1px solid #fff; 
+margin-right: 5px;
+margin-bottom: 8px;
+display: inline-block;
+padding: 5px 7px;
+font-size:12px ;
+color: #fff;
+opacity: 0.8;
+
+}
+
+footer .containar .Post img{
+    height: 91px;
+    width: 97px;
+    background-size: cover;
+    margin-bottom: 7px;
+  float: left;
+  margin-right: 7px;
+}
+.IMG{
+    float: left;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+footer .containar .Post h6{
+    font-size: 13px;
+    font-weight: 300;
+}
+footer .containar .Post span{
+    border: none;
+    color: #a7a7a7;
+    font-size: 11px;
+    
+}
+.Sh{
+    float: left;
+    
+  
+}
+
+footer .containar .categories span{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 6px;
+    color: #fff;
+    display: block;
+    opacity: 0.8;
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+    /* End Footer*/
